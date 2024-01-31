@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import { useEffect, useState } from "react";
 
 function Form(props) {
@@ -22,8 +23,9 @@ function Form(props) {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="form">
+      <form onSubmit={handleSubmit}>
         <input
+          className="input"
           type="text"
           name="searchterm"
           placeholder="search movie here....."

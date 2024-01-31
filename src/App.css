@@ -1,10 +1,11 @@
 .App {
   text-align: center;
-  color: blueviolet;
-  border: 20px, solid, blue;
-  background-color: black;
+  color: rgb(200, 198, 201);
+  background-color: rgb(21, 21, 21);
+  height: 1100px;
+  width: auto;
 }
 
 .form {
-  border: 20px, solid, blue;
+  border: 20px solid blue;
 }
