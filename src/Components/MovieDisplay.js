@@ -12,6 +12,7 @@ function MovieDisplay({ movie }) {
         <img src={movie.Poster} alt={movie.Title} />
         <h2>Year: {movie.Year}</h2>
         <h2>Language: {movie.Language}</h2>
+        <h2>Country: {movie.Country}</h2>
         <p>Plot: {movie.Plot}</p>
         <h4>Runtime: {movie.Runtime}</h4>
       </div>
