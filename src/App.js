@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <h1>Fetching Movies From an API </h1>
       <Form moviesearch={getMovie} />
-      <MovieDisplay />
+      <MovieDisplay movie={movie} />
     </div>
   );
 }

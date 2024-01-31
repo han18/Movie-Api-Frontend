@@ -1,4 +1,6 @@
 import React from "react";
+import "./App.css";
+
 import { useEffect, useState } from "react";
 
 function Form(props) {
@@ -22,7 +24,7 @@ function Form(props) {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
           name="searchterm"
