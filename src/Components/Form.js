@@ -1,6 +1,4 @@
 import React from "react";
-import "./App.css";
-
 import { useEffect, useState } from "react";
 
 function Form(props) {
@@ -28,6 +26,7 @@ function Form(props) {
         <input
           type="text"
           name="searchterm"
+          placeholder="search movie here....."
           onChange={handleChange}
           value={formData.searchterm}
         />
