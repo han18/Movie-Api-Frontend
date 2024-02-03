@@ -1,3 +1,5 @@
+// this is where I fetched data from an external data called OMDB -Movie API
+
 import "./App.css";
 import { useEffect, useState } from "react";
 import Form from "./Components/Form";
@@ -24,6 +26,7 @@ function App() {
       );
       const data = await response.json();
       setMovie(data);
+      console.log(data);
     } catch (e) {
       console.error(e);
     }
