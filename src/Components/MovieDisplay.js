@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function MovieDisplay({ movie }) {
-  // Function to return loaded JSX
+  // function to return loaded JSX .. movie is the prop
   const loaded = () => {
     return (
       <div className="container">

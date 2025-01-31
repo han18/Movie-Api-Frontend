@@ -14,7 +14,7 @@ function App() {
 
   // This will run on the first render but not on subsquent renders
   useEffect(() => {
-    getMovie("Clueless");
+    getMovie("Clueless"); // what should be displayed first
   }, []);
 
   // Function to get movies

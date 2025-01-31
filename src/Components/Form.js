@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import { useEffect, useState } from "react";
 
+
+// this is the input to search for API
 function Form(props) {
   // State to hold the data of our form
   const [formData, setFormData] = useState({
